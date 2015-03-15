@@ -1,0 +1,147 @@
+html {
+        max-height: 100vh;
+        max-width: 100%;
+    }
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        margin: 0px;
+        color: #000;
+        font-family: 'Lora', serif;
+        background-color: #fff;
+    }
+
+   header {
+        width:100%;
+        position:fixed;
+        /*padding: 0px 40px;*/
+        z-index: 100;
+        background-color: #DD4814;
+        top: 0px;
+        font-weight: lighter;
+    }
+
+    h1{
+        max-width: 20%;
+        display: inline-block;
+        margin-bottom: 0px;
+        padding-left: 40px;
+        font-size: 36px;
+        color: #DD4814;
+    }
+
+    h2{
+        text-transform: uppercase;
+        font-size: 20px;
+        padding: 30px;
+        font-weight: lighter;
+    }
+
+    header nav{
+        display: inline-block;
+        position: absolute;
+        right: 40px;
+        bottom: 0px;
+    }
+
+    header nav a{
+        padding: 0px 10px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    a {
+        color: #DD4814;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #000;
+    }
+
+    .content-about{
+        display: block;
+        width: 500px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 125px;
+    }
+
+    .content-work{
+        top: 175px;
+        display: block;
+        position: relative;
+        width: 500px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 60px;
+    }
+
+    p{
+        font-size: 16px;
+        padding: 30px;
+        bottom: 0;
+        line-height: 28px;
+    }
+
+    ul{
+        padding-left: 50px;
+    }
+
+    li{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    span{
+        color: #008080;
+    }
+
+    /*.man {
+        -webkit-animation-duration: 2s;
+        -webkit-animation-delay: 4s;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-duration: 2s;
+        -moz-animation-delay: 4s;
+        -moz-animation-iteration-count: infinite;
+    }*/
+
+    @media only screen and (max-width: 640px) { 
+        
+        .content-about {
+           max-width: 100%;
+        }
+
+        header {
+            padding: 0px;
+            text-align: center;
+            max-width: 100%;
+        }
+
+        header h1{
+           max-width: 100%;
+           padding: 0px;
+           font-size: 18px;
+           margin-bottom: 10px;
+        }
+
+        /*header nav{*/
+            position: static;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+    }
+
+
+
